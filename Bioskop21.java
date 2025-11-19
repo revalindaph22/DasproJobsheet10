@@ -9,6 +9,7 @@ public class Bioskop21 {
         penonton[2][0] = "Eka";
         penonton[2][1] = "Farhan";
         penonton[3][0] = "Gisel";
+        penonton[3][1] = "Hana"; // modif no.3
 
         System.out.printf("%s \t %s\n", penonton[0][0], penonton[0][1]);
         System.out.printf("%s \t %s\n", penonton[1][0], penonton[1][1]);
@@ -25,7 +26,8 @@ public class Bioskop21 {
            = karena array 2D di isi dengan indeks baris 4 dan kolom 2, namun input
            hanya berhenti pada baris 3 kolom 0, dan jika di hitung hanya terdapat 3 kolom 1
            pada coding, itu kurang pengisian lagi pada kolom 1 baris ke 3
-        3. Lengkapi daftar penonton pada langkah ke-4 sebagai berikut
+        3. Lengkapi daftar penonton pada langkah ke-4 sebagai berikut. Done
+        
         */
     }
 }
