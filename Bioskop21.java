@@ -16,11 +16,11 @@ public class Bioskop21 {
         System.out.printf("%s \t %s\n", penonton[2][0], penonton[2][1]);
         System.out.printf("%s \t %s\n", penonton[3][0], penonton[3][1]);
 
+        // mondif no.5
         System.out.println(penonton.length);
-        System.out.println(penonton[0].length);
-        System.out.println(penonton[1].length);
-        System.out.println(penonton[2].length);
-        System.out.println(penonton[3].length); // modif no.4
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Panjang baris ke-" + (i+1) + ": " + penonton[i].length);
+        }
 
         /*
         Pertanyaan
@@ -38,6 +38,8 @@ public class Bioskop21 {
              maka penonton[0].length = 2.
              ya, semuanya sama, nilainya 2, karena setiap baris berisi 2 orang penonton, jadi kolomnya sama semua,
              kalau ada satu baris yang jumlah kolomnya beda, baru nilainya berbeda.
+        5. Modifikasi kode program pada pertanyaan 4 untuk menampilkan panjang setiap baris pada array menggunakan for loop.
+           Compile, run, lalu amati hasilnya. Done
         */
     }
 }
