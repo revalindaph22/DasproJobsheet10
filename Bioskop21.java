@@ -22,10 +22,9 @@ public class Bioskop21 {
             System.out.println("Panjang baris: " + barisPenonton.length);
         }
 
-        // modif no.8
-        System.out.println("Penonton pada baris ke-3: ");
-        for (String i : penonton[2]) {
-            System.out.println(i);
+        // modif no.9
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Penonton pada baris ke-" + (i+1) + ": " + String.join(", ", penonton[i]));
         }
 
         /*
@@ -52,6 +51,8 @@ public class Bioskop21 {
            Compile, run, lalu amati hasilnya. Done
         8. Modifikasi kode program pada pertanyaan 7 menjadi perulangan dengan foreach loop.
            Compile, run, lalu lakukan amati hasilnya. Done
+        9. Modifikasi kembali kode program pada langkah 11 untuk menampilkan nama penonton untuk
+           setiap baris. Compile dan run program kemudian amati hasilnya. Done
         */
     }
 }
