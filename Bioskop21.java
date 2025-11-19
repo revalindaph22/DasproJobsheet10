@@ -53,6 +53,14 @@ public class Bioskop21 {
            Compile, run, lalu lakukan amati hasilnya. Done
         9. Modifikasi kembali kode program pada langkah 11 untuk menampilkan nama penonton untuk
            setiap baris. Compile dan run program kemudian amati hasilnya. Done
+        10. Menurut anda, apa kekurangan dan kelebihan foreach loop dengan for lop?
+        Kelebihan foreach, lebih mudah di terapkan, tidak perlu memikirkan indeks (i), dan membuat kode lebih rapi.
+        Kekurangan foreach, tidak bisa mengakses indeks langsung, tidak cocok jika ingin mengubah isi array, 
+        dan tidak bisa dari indeks tertentu (harus dari awal sampai akhir).
+        11. Berapa indeks baris maksimal untuk array penonton? 4 baris
+        12. Berapa indeks kolom maksimal untuk array penonton? 2 kolom
+        13. Apa fungsi dari String.join()? menggabungkan beberapa string menjadi satu string,
+            dan setiap elemen dipisahkan oleh pemisah yang ditentukan.
         */
     }
 }
