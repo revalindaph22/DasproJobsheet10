@@ -24,6 +24,12 @@ public class BioskopWithScanner {
                 System.out.print("Masukkan kolom : ");
                 kolom = Linda.nextInt();
                 Linda.nextLine();
+
+            if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2) {
+                System.out.println("Maaf, nomor kursi tidak tersedia! (baris 1-4, kolom 1-2)");
+                System.out.println("Silakan masukkan lagi, baris dan kolom anda.\n");
+                continue;
+            }
                 
                 penonton[baris-1][kolom-1] = nama;
                 
@@ -70,7 +76,7 @@ public class BioskopWithScanner {
    Menu 3: Exit 
    Done
 3. Modifikasi kode program untuk menghandle apabila nomor baris/kolom kursi yang 
-   tidak tersedia 
+   tidak tersedia. Done
 4. Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang 
    dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan 
    baris dan kolom kembali  
