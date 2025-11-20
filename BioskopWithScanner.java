@@ -47,7 +47,7 @@ public class BioskopWithScanner {
             for (int i = 0; i < penonton.length; i++) {
                 for (int j = 0; j < penonton[i].length; j++) {
                     if (penonton[i][j] == null) {
-                        System.out.print("null\t");
+                        System.out.print("***\t");
                      } else {
                         System.out.print(penonton[i][j] + "\t");
                     }
@@ -80,5 +80,5 @@ public class BioskopWithScanner {
 4. Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang 
    dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan 
    baris dan kolom kembali. Done
-5. Pada menu 2, jika kursi kosong, ganti null dengan ***
+5. Pada menu 2, jika kursi kosong, ganti null dengan ***. Done
  */
