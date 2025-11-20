@@ -11,6 +11,10 @@ public class Numbers21 {
             System.out.println(Arrays.toString(myNumbers[i]));
         }
 
+        for (int i = 0; i < myNumbers.length; i++) {
+            System.out.println("Pajang baris ke-" + myNumbers[i].length);
+        }
+
     }
 }
 
@@ -20,7 +24,7 @@ public class Numbers21 {
    bentuk teks (string) supaya bisa ditampilkan dengan mudah, kalau print
    array langsung tanpa itu, hasilnya cuma alamat memori.
 3. Apa nilai default untuk elemen pada array dengan tipe data int? angka 0
-4. Tambahkan kode program berikut.
+4. Tambahkan kode program berikut. Done
 5. Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang 
-array dapat dimodifikasi setelah diinstansiasi?
+array dapat dimodifikasi setelah diinstansiasi? tidak bisa.
 */
