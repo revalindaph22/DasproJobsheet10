@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BioskopWithScanner {
+public class BioskopWithScanner21 {
 
     public static void main(String[] args) {
         Scanner Linda = new Scanner(System.in);
