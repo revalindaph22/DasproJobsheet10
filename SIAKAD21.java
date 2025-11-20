@@ -16,6 +16,17 @@ public class SIAKAD21 {
             System.out.println("Nilai rata-rata: " + totalPersiswa/3);
         }
 
+        System.out.println("\n======================================");
+        System.out.println("Rata-rataa Nilai setiap Mata Kuliah:");
+
+        for (int i = 0; i < nilai.length; i++) {
+            double totalPerMatkul = 0;
+            for (int j = 0; j < nilai.length; j++) {
+                totalPerMatkul += nilai[i][j];
+            }
+            System.out.println("Mata Kuliah " + ": " + totalPerMatkul/4);
+        }
+        
         Linda.close();
     }
 }
